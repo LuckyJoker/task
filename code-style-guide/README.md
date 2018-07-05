@@ -162,6 +162,8 @@
 
    在设置中，将`tslint.autoFixOnSave`和`eslint.autoFixOnSave`设置为`true`
 
+   对于不需要代码检查的文件，可以将路径写在单独的`.eslintignore`或者`.tslintignore`的纯文本文件中，并将文件放在项目文件夹的跟路径下。
+
 2. **prettier**
 
       prettier是一个更强力的代码格式化工具，在前面的基础上全局安装prettier（最好关闭`tslint.autoFixOnSave`和`eslint.autoFixOnSave`以避免冲突）。
