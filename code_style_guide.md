@@ -167,17 +167,12 @@
 
 2. **prettier**
 
-      prettier是一个更强力的代码格式化工具，在前面的基础上全局安装prettier（最好关闭`tslint.autoFixOnSave`和`eslint.autoFixOnSave`以避免冲突）。
+      prettier是一个更强力的代码格式化工具，在前面的基础上全局安装prettier。
 
       - `npm i -g prettier`
 
-      - 在vscode中安装`Prettier - Code formatter`插件，并在用户设置中添加
+      - 在vscode中安装`Prettier - Code formatter`插件，之后使用`alt + shift + f`快捷键格式化代码时，prettier会对代码进行格式化
 
-        ```json
-        "[javascript]": {
-            "editor.formatOnSave": true
-          },
-        ```
       - prettier配置一个独立的`.prettierrc.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
 
         ```yaml
