@@ -45,8 +45,6 @@
 
    ```yaml
    ---
-   rulesDirectory:
-    - node_modules/codelyzer
    rules:
     arrow-return-shorthand: true
     callable-types: true
