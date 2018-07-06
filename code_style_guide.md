@@ -39,6 +39,9 @@
         - JSXElement
         - JSXElement *
     no-tabs: 0
+    space-before-function-paren:
+     - error
+     - never
    ```
 
    - tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
