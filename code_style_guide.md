@@ -31,6 +31,14 @@
     max-len: off
     require-jsdoc: warn
     func-names: off
+    indent:
+     - error
+     - tab
+     - SwitchCase: 1
+       ignoredNodes:
+        - JSXElement
+        - JSXElement *
+    no-tabs: 0
    ```
 
    - tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
