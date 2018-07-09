@@ -31,4 +31,4 @@
 - https://demo.marpi.pl/biomes
 - https://pissang.github.io/voxelize-image
 - http://echarts.baidu.com/examples/index.html#chart-type-globe
-- https://tympanus.net/Development/AudioVisualizers（推荐戴耳机）
+- https://tympanus.net/Development/AudioVisualizers （推荐戴耳机）
