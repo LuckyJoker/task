@@ -42,6 +42,12 @@
     space-before-function-paren:
      - error
      - never
+   globals:
+    wx: null
+    App: null
+    Page: null
+    getApp: null
+    Component: null
    ```
 
    - tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
