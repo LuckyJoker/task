@@ -1,4 +1,4 @@
-## task10
+## JavaScript练习
 
 [JavaScript30](https://javascript30.com/) 30个JavaScript练习，每天一个
 
