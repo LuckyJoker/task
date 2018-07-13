@@ -1,6 +1,6 @@
 ## 三栏布局、CSS选择器和文本样式
 
-#### 三栏式布局
+#### 一、三栏式布局
 
 [效果图](https://share.weiyun.com/5xYMMqf)
 
@@ -30,10 +30,10 @@
 - [Flex布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 - [Flex布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 
-#### CSS选择器
+#### 二、CSS选择器
 
 [CSS的概念与简单选择器](http://t.75team.com/video/play?id=24_96_20161229095053d22e83b5-09b0-4e64-8889-70c27a6a0753)
 
-#### 文本样式
+#### 三、文本样式
 
 [文本样式](http://t.75team.com/video/play?id=25_100_20161229101113b6533bdd-b985-4fc1-8dcb-5c3279f56514)
