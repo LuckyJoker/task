@@ -1,6 +1,6 @@
 ## 简单布局
 
-[效果图](https://share.weiyun.com/5QiwPOT)
+[效果图](https://share.weiyun.com/58E48CW)
 
 #### 任务要求
 
