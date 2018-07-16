@@ -1,2 +1,2 @@
 # 基础部分
-[freecodecamp](https://www.freecodecamp.org/)网站上完成 `Front End Development Certification` 第一部分的学习，`HTML5 and CSS`
+完成[Basic HTML & HTML5](https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5/)和[Basic CSS](https://learn.freecodecamp.org/responsive-web-design/basic-css)的所有练习
