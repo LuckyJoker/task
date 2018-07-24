@@ -2,8 +2,6 @@
 
 **今后的练习你们可以多用flex和grid来实现，你们应该拥抱未来，而不是守在当下和过去。学习就要学新的东西。**
 
-### 练习一
-
 #### 任务要求
 
 - 可以考虑响应式的布局，比如浏览器的宽度不同时，显示的列数不同
@@ -14,12 +12,4 @@
 
 [jpg](https://share.weiyun.com/5gzXKRW)
 
-[pad](https://share.weiyun.com/5jCDC3Z)
-
-### 练习二
-
-#### 设计稿
-
-[jpg](https://share.weiyun.com/5Q3oT0F)
-
-[psd](https://share.weiyun.com/5rbfcpx)
+[psd](https://share.weiyun.com/5jCDC3Z)

@@ -1,4 +1,7 @@
-# 一般官网
-设计稿地址`链接：https://share.weiyun.com/59YCsa7`  
-要求：还原设计稿。  
-进阶：添加合适动效。
+## 基本布局练习
+
+#### 设计稿
+
+[jpg](https://share.weiyun.com/5Q3oT0F)
+
+[psd](https://share.weiyun.com/5rbfcpx)
