@@ -16,5 +16,7 @@
 
    共上中下三册,可以在GitHub上阅读免费的英文版,[You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 
-5. 《JavaScript语言精粹》作者:  Douglas Crockford
+5. 《雄辩的JavaScript》作者：Marijn Haverbeke  可以直接从网上获取 [链接](http://eloquentjavascript.net/index.html)
+
+6. 《JavaScript语言精粹》作者:  Douglas Crockford
 
