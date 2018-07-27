@@ -2,55 +2,58 @@
 
 ### 工具的安装和使用
 
-1. **eslint、tslint**
+#### 1. 使用`ESLint`检查`JavaScript`代码
 
-   全局安装
+全局安装
 
-   `npm i -g eslint babel-eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-airbnb tslint`
+`npm i -g eslint babel-eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-airbnb`
 
-   配置文件
-   - eslint配置一个独立的`.eslintrc.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
+配置文件
+- eslint配置一个独立的`.eslintrc.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
 
-   ```yaml
-   ---
-   extends: airbnb
-   parser: babel-eslint
-   plugins:
-    - react
-    - jsx-a11y
-    - import
-   env:
-    amd: true
-    browser: true
-    jquery: true
-    node: true
-    es6: true
-    worker: true
-   rules:
-    no-console: off
-    max-len: off
-    require-jsdoc: warn
-    func-names: off
-    indent:
-     - error
-     - tab
-     - SwitchCase: 1
-       ignoredNodes:
-        - JSXElement
-        - JSXElement *
-    no-tabs: 0
-    space-before-function-paren:
-     - error
-     - never
-   globals:
-    wx: null
-    App: null
-    Page: null
-    getApp: null
-    Component: null
-   ```
+```yaml
+---
+extends: airbnb
+parser: babel-eslint
+plugins:
+ - react
+ - jsx-a11y
+ - import
+env:
+ amd: true
+ browser: true
+ jquery: true
+ node: true
+ es6: true
+ worker: true
+rules:
+ no-console: off
+ max-len: off
+ require-jsdoc: warn
+ func-names: off
+ no-tabs: 0
+ space-before-function-paren:
+  - error
+  - never
+globals:
+ wx: null
+ App: null
+ Page: null
+ getApp: null
+ Component: null
+```
 
-   - tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
+vscode插件配置
+
+   首先，安装`ESLint`插件
+
+   在设置中，将`eslint.autoFixOnSave`设置为`true`
+
+ 对于不需要代码检查的文件，可以将文件路径写在单独的`.eslintignore`的纯文本文件中，并将文件放在项目文件夹的根路径下。
+
+#### 2. 使用`TSLint`检查`TypeScript`代码
+
+tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
 
    ```yaml
    ---
@@ -174,35 +177,34 @@
 
    vscode插件配置
 
-   首先，安装`ESLint`和`TSLint`两个插件
+   首先，安装`TSLint`插件
 
-   在设置中，将`tslint.autoFixOnSave`和`eslint.autoFixOnSave`设置为`true`
+   在设置中，将`tslint.autoFixOnSave`设置为`true`
 
-   对于不需要代码检查的文件，可以将路径写在单独的`.eslintignore`或者`.tslintignore`的纯文本文件中，并将文件放在项目文件夹的跟路径下。
+   对于不需要代码检查的文件，可以将文件路径写在单独的`.tslintignore`的纯文本文件中，并将文件放在项目文件夹的根路径下。
 
-2. **prettier**
+#### 3. prettier
 
-      prettier是一个更强力的代码格式化工具，在前面的基础上全局安装prettier。
+prettier是一个更强力的代码格式化工具，在前面的基础上全局安装prettier。
 
-      - `npm i -g prettier`
+- `npm i -g prettier`
 
-      - 在vscode中安装`Prettier - Code formatter`插件，之后使用`alt + shift + f`快捷键格式化代码时，prettier会对代码进行格式化
+- 在vscode中安装`Prettier - Code formatter`插件，之后使用`alt + shift + f`快捷键格式化代码时，prettier会对代码进行格式化
 
-      - prettier配置一个独立的`.prettierrc.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
+- prettier配置一个独立的`.prettierrc.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
 
-        ```yaml
-        ---
-        useTabs: true
-        semi: true
-        singleQuote: true
-        trailingComma: es5
-        bracketSpacing: true
-        jsxBracketSameLine: false
-        arrowParens: avoid
-        insertPragma: true
-        ```
+  ```yaml
+  ---
+  semi: true
+  singleQuote: true
+  trailingComma: es5
+  bracketSpacing: true
+  jsxBracketSameLine: false
+  arrowParens: avoid
+  insertPragma: true
+  ```
 
-3. **代码规范**
+1. **代码规范**
 
       [Airbnb JavaScript Style Guide](https://github.com/yuche/javascript)
 
