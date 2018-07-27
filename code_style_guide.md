@@ -53,6 +53,10 @@ vscode插件配置
 
 #### 2. 使用`TSLint`检查`TypeScript`代码
 
+全局安装
+
+`npm i -g tslint`
+
 tslint配置一个独立的`.tslint.yaml`文件，放在项目文件夹或者用户文件夹的根路径下
 
    ```yaml
