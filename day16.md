@@ -3,10 +3,8 @@
 ### 1. Grid布局
 
 - [css-grid-playground](https://mozilladevelopers.github.io/playground/css-grid)
-- [网格布局](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Grid_Layout) 目录在网页左侧
 - [学习网格布局的游戏](http://cssgridgarden.com/)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [Grid by Example](https://gridbyexample.com/)
 
 ### 2. 使用Markdown写作 
 
