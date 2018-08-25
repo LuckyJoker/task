@@ -1,0 +1,33 @@
+---
+extends: airbnb
+parser: babel-eslint
+plugins:
+ - react
+ - jsx-a11y
+ - import
+env:
+ amd: true
+ browser: true
+ jquery: true
+ node: true
+ es6: true
+ worker: true
+rules:
+ no-console: off
+ max-len: off
+ require-jsdoc: warn
+ func-names: off
+ space-before-function-paren:
+  - error
+  - never
+ import/no-extraneous-dependencies:
+  - error
+  - devDependencies: true
+    optionalDependencies: false
+    peerDependencies: false
+globals:
+ wx: null
+ App: null
+ Page: null
+ getApp: null
+ Component: null
