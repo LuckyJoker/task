@@ -6,7 +6,7 @@
 
 全局安装
 
-`npm i -g eslint babel-eslint eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-config-airbnb`
+`npm i -g eslint babel-eslint eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-react eslint-plugin-promise eslint-plugin-import eslint-plugin-node`
 
 配置文件
 - eslint配置一个独立的[.eslintrc.yaml](./config_files/.eslintrc.yaml)文件，放在项目文件夹或者用户文件夹的根路径下
