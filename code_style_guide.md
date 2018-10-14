@@ -25,7 +25,7 @@ vscode插件配置
 
 `npm i -g tslint`
 
-tslint配置一个独立的[.tslint.yaml](./config_files/.tslint.yaml)文件，放在项目文件夹或者用户文件夹的根路径下
+tslint配置一个独立的[tslint.yaml](./config_files/tslint.yaml)文件，放在项目文件夹或者用户文件夹的根路径下
 
    vscode插件配置
 
