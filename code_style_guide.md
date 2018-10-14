@@ -48,5 +48,5 @@ prettier是一个更强力的代码格式化工具，在前面的基础上全局
 
 1. **代码规范**
 
-      [Airbnb JavaScript Style Guide](https://github.com/yuche/javascript)
+      [JavaScript Standard Style](https://standardjs.com/rules.html)
 
